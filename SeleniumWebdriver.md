@@ -30,7 +30,8 @@ webdriver最好用一个简单的架构图，说明，如下图所示。
 
 ## 使用webdriver脚本
 
-让我们了解webdriver如何工作。为了演示目的，我们将使用http://www.calculator.net/。我们将执行“百分比计算器”，这是位于“数学计算器”。我们已经下载了所需要webdriver的JAR。请参阅环境设置一章。
+让我们了解webdriver如何工作。为了演示目的，我们将使用http://www.calculator.net/
+。我们将执行“百分比计算器”，这是位于“数学计算器”。我们已经下载了所需要webdriver的JAR。请参阅环境设置一章。
 
 第1步：从提取Eclipse文件夹中启动“Eclipse”。
 

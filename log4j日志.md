@@ -23,7 +23,8 @@ Log4j是审计日志框架，提供有关执行过程中发生了什么样的信
 
 让我们同样用百分比计算器这个演示。
 
-第1步：从https://logging.apache.org/log4j/1.2/download.htmll下载log4j的JAR文件，并将下载JAR文件的解压缩格式。
+第1步：从https://logging.apache.org/log4j/1.2/download.html
+下载log4j的JAR文件，并将下载JAR文件的解压缩格式。
 
 ![selenium_ide_158](images/0H2336102-0.jpg)
 
