@@ -6,15 +6,15 @@
 
 插入记录模式中的任何验证点单击“右键”元素，并选择“Show all Available Commands”，如下图所示。
 
-![selenium ide 21](http://www.yiibai.com/uploads/allimg/140831/21141S311-0.jpg)
+![selenium ide 21](images/21141S311-0.jpg)
 
 我们也可以通过执行“右键”，然后选择“Insert New Command”插入一个命令。
 
-![selenium ide 22](http://www.yiibai.com/uploads/allimg/140831/21141T5B-1.jpg)
+![selenium ide 22](images/21141T5B-1.jpg)
 
 插入新的命令后，单击“Command”下拉列表，选择如下图所示的命令的列表提供适当的验证点
 
-![selenium ide 23](http://www.yiibai.com/uploads/allimg/140831/21141Q1H-2.jpg)
+![selenium ide 23](images/21141Q1H-2.jpg)
 
 下面是主要用于验证的命令，这有助于我们检查一个特定步骤已通过或失败。
 

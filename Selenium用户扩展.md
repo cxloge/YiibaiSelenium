@@ -8,15 +8,15 @@
 
 **步骤 1 : **要添加js文件，首先导航到https://github.com/darrenderidder/sideflow/blob/master/sideflow.js和复制脚本和地点将其保存在本地文件夹下为 “sideflow.js”，如下图所示。
 
-![Selenium IDE 24](http://www.yiibai.com/uploads/allimg/140925/1-140925201303Q6.jpg)
+![Selenium IDE 24](images/1-140925201303Q6.jpg)
 
 **第2步：**现在启动“Selenium IDE”，然后导航到"Options" >> "Options"，如下图所示。
 
-![Selenium IDE 25](http://www.yiibai.com/uploads/allimg/140925/1-140925201330391.jpg)
+![Selenium IDE 25](images/1-140925201330391.jpg)
 
 **第3步：**点击“Browse”按钮下的“Selenium Core Extensions”区域产并指向我们已经保存在第1步中的js文件。
 
-![Selenium IDE 26](http://www.yiibai.com/uploads/allimg/140925/2011421109-2.jpg)
+![Selenium IDE 26](images/2011421109-2.jpg)
 
 **第4步：**重新启动Selenium IDE。
 
@@ -24,4 +24,4 @@
 
 **第6步：**现在，我们创造出在Selenium IDE内的循环，这是能够执行的，如下图所示。
 
-![Selenium IDE 27](http://www.yiibai.com/uploads/allimg/140925/20114235S-3.jpg)
+![Selenium IDE 27](images/20114235S-3.jpg)

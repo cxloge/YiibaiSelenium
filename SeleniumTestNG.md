@@ -19,43 +19,43 @@ TestNG框架提供了以下功能和解答我们的问题：“为什么我们�
 
 **第1步：**启动Eclipse，选择“Install New Software”。
 
-![Selenium IDE 93](http://www.yiibai.com/uploads/allimg/140928/2034591496-0.jpg)
+![Selenium IDE 93](images/2034591496-0.jpg)
 
 **第2步：**输入网址为“http://beust.com/eclipse”，然后单击“Add”。
 
-![Selenium IDE 94](http://www.yiibai.com/uploads/allimg/140928/20345964I-1.jpg)
+![Selenium IDE 94](images/20345964I-1.jpg)
 
 **第3步：**打开添加存储库对话框输入名称为“TestNG”，然后点击“OK”
 
-![Selenium IDE 95](http://www.yiibai.com/uploads/allimg/140928/2034595249-2.jpg)
+![Selenium IDE 95](images/2034595249-2.jpg)
 
 **第4步：**点击“全Select All”和“TestNG”将被选择，如图所示。
 
-![Selenium IDE 96](http://www.yiibai.com/uploads/allimg/140928/2034593346-3.jpg)
+![Selenium IDE 96](images/2034593346-3.jpg)
 
 **第5步：**点击“Next”继续。
 
-![Selenium IDE 97](http://www.yiibai.com/uploads/allimg/140928/2034595936-4.jpg)
+![Selenium IDE 97](images/2034595936-4.jpg)
 
 **第6步：**检查被选中项目，然后单击“Next”。
 
-![Selenium IDE 98](http://www.yiibai.com/uploads/allimg/140928/203459E48-5.jpg)
+![Selenium IDE 98](images/203459E48-5.jpg)
 
 **第7步：**“Accept the License Agreement”，然后单击“Finish”。
 
-![Selenium IDE 99](http://www.yiibai.com/uploads/allimg/140928/2034592225-6.jpg)
+![Selenium IDE 99](images/2034592225-6.jpg)
 
 **第8步：**TestNG开始安装并且将示出进度如下。
 
-![Selenium IDE 100](http://www.yiibai.com/uploads/allimg/140928/203459E25-7.jpg)
+![Selenium IDE 100](images/203459E25-7.jpg)
 
 **第9步：**安全警告弹出的软件的有效性不能成立。单击“Ok”。
 
-![Selenium IDE 101](http://www.yiibai.com/uploads/allimg/140928/20345a1K-8.jpg)
+![Selenium IDE 101](images/20345a1K-8.jpg)
 
 **第10步：**安装程序弹出的重启。单击“Yes”。
 
-![Selenium IDE 102](http://www.yiibai.com/uploads/allimg/140928/2034595261-9.jpg)
+![Selenium IDE 102](images/2034595261-9.jpg)
 
 ## TestNG的注解
 
@@ -88,55 +88,55 @@ TestNG框架提供了以下功能和解答我们的问题：“为什么我们�
 
 **第1步：**启动Eclipse，并创建一个“New Java Project”，如下图所示。
 
-![Selenium IDE 53](http://www.yiibai.com/uploads/allimg/140928/20345942J-10.jpg)
+![Selenium IDE 53](images/20345942J-10.jpg)
 
 **第2步：**输入项目名称，然后单击“Next”。
 
-![Selenium IDE 103](http://www.yiibai.com/uploads/allimg/140928/20345922O-11.jpg)
+![Selenium IDE 103](images/20345922O-11.jpg)
 
 **第3步：**找到“Libraries”选项卡，并单击添加Selenium远程控制服务器的JAR文件“Add External JAR's”，如图所示。
 
-![Selenium IDE 113](http://www.yiibai.com/uploads/allimg/140928/2034595928-12.jpg)
+![Selenium IDE 113](images/2034595928-12.jpg)
 
 **第4步：**添加JAR文件，如下图所示，然后单击“Add Library”。
 
-![Selenium IDE 104](http://www.yiibai.com/uploads/allimg/140928/20345950B-13.jpg)
+![Selenium IDE 104](images/20345950B-13.jpg)
 
 **第5步：**“Add Library”对话框打开。选择“TestNG”，然后点击“Next”在“Add Library”对话框。
 
-![Selenium IDE 105](http://www.yiibai.com/uploads/allimg/140928/2034593R8-14.jpg)
+![Selenium IDE 105](images/2034593R8-14.jpg)
 
 **第6步：**添加“TestNG”类库加入如下图所示它显示出来。
 
-![Selenium IDE 106](http://www.yiibai.com/uploads/allimg/140928/2034594F5-15.jpg)
+![Selenium IDE 106](images/2034594F5-15.jpg)
 
 
 
 **第7步：**当创建项目的结构将在下面所示的项目。
 
-![img](http://www.yiibai.com/uploads/allimg/140928/2034592010-16.jpg)
+![img](images/2034592010-16.jpg)
 
 **第8步：**右键点击“src”文件夹并选择“New”和“other”。
 
-![Selenium IDE 108](http://www.yiibai.com/uploads/allimg/140928/2034595395-17.jpg)
+![Selenium IDE 108](images/2034595395-17.jpg)
 
 **第9步：**选择“TestNG”，然后点击“Next”。
 
-![Selenium IDE 109](http://www.yiibai.com/uploads/allimg/140928/2034596160-18.jpg)
+![Selenium IDE 109](images/2034596160-18.jpg)
 
 
 
 **第10步：**选择“Source Folder”名称，并单击“Ok”。
 
-![Selenium IDE 110](http://www.yiibai.com/uploads/allimg/140928/20345aG0-19.jpg)
+![Selenium IDE 110](images/20345aG0-19.jpg)
 
 **第11步：**选择“Package name”，类名，然后单击“Finish”。
 
-![Selenium IDE 111](http://www.yiibai.com/uploads/allimg/140928/2034594G5-20.jpg)
+![Selenium IDE 111](images/2034594G5-20.jpg)
 
 **第12步：**在Package Explorer和创建的类将可以显示出来给用户。
 
-![Selenium IDE 112](http://www.yiibai.com/uploads/allimg/140928/2034593Y7-21.jpg)
+![Selenium IDE 112](images/2034593Y7-21.jpg)
 
 ## 在TestNG的第一个测试
 
@@ -144,7 +144,7 @@ TestNG框架提供了以下功能和解答我们的问题：“为什么我们�
 
 在下面的测试，你会发现，没有main方法，如TestNG将驱动程序的执行流程。初始化驱动程序后，它将执行“@BeforeTest'方法，其次是”@Test'，然后'@AfterTest“。请注意，可以在一个类中的任何数量“@Test”注解，但是“@BeforeTest'和'@AfterTest”只能出现一次。
 
-```
+```java
 package TestNG;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
@@ -214,18 +214,18 @@ public class TestNGClass
 
 通过在创建的XML执行右键单击并选择 "Run As" >> "TestNG Suite"进行测试执行
 
-![Selenium IDE 189](http://www.yiibai.com/uploads/allimg/140928/2034591B1-22.jpg)
+![Selenium IDE 189](images/2034591B1-22.jpg)
 
 ## 结果分析
 
 输出被丢到了控制台，它会出现如下图所示。控制台输出也有执行摘要。
 
-![Selenium IDE 114](http://www.yiibai.com/uploads/allimg/140928/20345945W-23.jpg)
+![Selenium IDE 114](images/20345945W-23.jpg)
 
 TestNG的结果也可以看出在不同的标签。点击“HTML Report View”按钮，如下图所示。
 
-![Selenium IDE 115](http://www.yiibai.com/uploads/allimg/140928/20345960P-24.jpg)
+![Selenium IDE 115](images/20345960P-24.jpg)
 
 如下所示的HTML结果将被显示。
 
-![Selenium IDE 117](http://www.yiibai.com/uploads/allimg/140928/2034591327-25.jpg)
+![Selenium IDE 117](images/2034591327-25.jpg)

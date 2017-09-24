@@ -13,7 +13,7 @@ Selenium 网格具有枢纽和节点
 
 Selenium 网格的体系结构是用简单的流程图来解释。
 
-![selenium_ide_121](http://www.yiibai.com/uploads/allimg/140928/21191H617-0.jpg)
+![selenium_ide_121](images/21191H617-0.jpg)
 
 ## 使用网格工作
 
@@ -30,7 +30,7 @@ Selenium 网格的体系结构是用简单的流程图来解释。
 
 步骤1：从http://docs.seleniumhq.org/download/下载最新的Selenium服务器独立JAR文件。通过点击版本如下所示下载。
 
-![selenium_ide_45](http://www.yiibai.com/uploads/allimg/140928/21191H9D-1.jpg)
+![selenium_ide_45](images/21191H9D-1.jpg)
 
 第2步：使用以下命令启动Selenium服务器启动的集线器。现在，我们将使用端口“4444”启动集线器。
 
@@ -40,15 +40,15 @@ Selenium 网格的体系结构是用简单的流程图来解释。
 java -jar selenium-server-standalone-2.25.0.jar-port 4444-role hub -nodeTimeout 1000
 ```
 
-![selenium_ide_122](http://www.yiibai.com/uploads/allimg/140928/21191I039-2.jpg)
+![selenium_ide_122](images/21191I039-2.jpg)
 
 第3步：现在打开浏览器，然后从集线器导航到http//localhost:4444 （其中已执行的系统步骤＃2）。
 
-![selenium_ide_123](http://www.yiibai.com/uploads/allimg/140928/21191G046-3.jpg)
+![selenium_ide_123](images/21191G046-3.jpg)
 
 第4步：现在点击“console”链接，然后单击“view config”。将显示hub的配置。截至目前，我们还没有得到任何节点，因此我们将无法看到细节。
 
-![selenium_ide_124](http://www.yiibai.com/uploads/allimg/140928/21191IQ5-4.jpg)
+![selenium_ide_124](images/21191IQ5-4.jpg)
 
 ### 配置节点
 
@@ -66,17 +66,17 @@ browserName = firefox (Parameter to specify the Browser name on Nodes)
 5555 = Port on which Firefox Node would be up and running.
 ```
 
-![selenium_ide_125](http://www.yiibai.com/uploads/allimg/140928/21191L427-5.jpg)
+![selenium_ide_125](images/21191L427-5.jpg)
 
 第3步：执行该命令后，现在回过头来集线器。导航到URL - http://10.30.217.157:4444和集线器现在会显示在所连接的节点。
 
-![selenium_ide_126](http://www.yiibai.com/uploads/allimg/140928/21191I520-6.jpg)
+![selenium_ide_126](images/21191I520-6.jpg)
 
 第4步：现在，让我们启动Internet Explorer节点。用于启动IE浏览器节点，我们需要确保我们有下载的节点机上的Internet Explorer驱动程序。
 
 第5步：要下载Internet Explorer的驱动程序，根据您的操作系统的架构导航到http://docs.seleniumhq.org/download/并下载。下载后解压缩exe文件，并将其放置其中有被称为同时推出IE浏览器节点上的一个文件夹。
 
-![selenium_ide_131](http://www.yiibai.com/uploads/allimg/140928/21191G942-7.jpg)
+![selenium_ide_131](images/21191G942-7.jpg)
 
 第6步：使用以下命令启动IE浏览器。
 
@@ -91,21 +91,21 @@ browserName = ie (Parameter to specify the Browser name on Nodes)
 5558 = Port on which IE Node would be up and running.
 ```
 
-![selenium_ide_127](http://www.yiibai.com/uploads/allimg/140928/21191H611-8.jpg)
+![selenium_ide_127](images/21191H611-8.jpg)
 
 第7步：执行该命令后，现在再回到集线器。导航到URL- http://10.30.217.157:4444 集线器现在会显示所连接的IE浏览器节点。
 
-![selenium_ide_128](http://www.yiibai.com/uploads/allimg/140928/21191M126-9.jpg)
+![selenium_ide_128](images/21191M126-9.jpg)
 
 第8步：现在我们启动Chrome节点。用于启动浏览器节点，我们需要确保我们有下载的节点机上浏览器的驱动程序。
 
 第9步：下载Chrome浏览器驱动程序，导航到http://docs.seleniumhq.org/download/并导航到第三方浏览器驱动区域，然后单击版本号“2.10”，如下图所示。
 
-![selenium_ide_132](http://www.yiibai.com/uploads/allimg/140928/21191H250-10.jpg)
+![selenium_ide_132](images/21191H250-10.jpg)
 
 第10步：下载基于操作系统的类型的驱动程序。我们会执行它在Windows环境，因此我们将下载的Chrome浏览器的Windows驱动程序。下载后解压缩exe文件，并将它具有同时启动Chrome节点被称为一个文件夹。
 
-![selenium_ide_133](http://www.yiibai.com/uploads/allimg/140928/21191I625-11.jpg)
+![selenium_ide_133](images/21191I625-11.jpg)
 
 第11步：使用以下命令启动chrome 。
 
@@ -120,11 +120,11 @@ browserName = chrome (Parameter to specify the Browser name on Nodes)
 5557 = Port on which chrome Node would be up and running.
 ```
 
-![selenium_ide_129](http://www.yiibai.com/uploads/allimg/140928/21191HW0-12.jpg)
+![selenium_ide_129](images/21191HW0-12.jpg)
 
 第7步：执行该命令后，现在再回集线器。导航到URL- http://10.30.217.157:4444 集线器现在会显示连接到chrome 节点。
 
-![selenium_ide_130](http://www.yiibai.com/uploads/allimg/140928/21191KR5-13.jpg)
+![selenium_ide_130](images/21191KR5-13.jpg)
 
 ### 开发脚本
 
@@ -132,7 +132,7 @@ browserName = chrome (Parameter to specify the Browser name on Nodes)
 
 浏览器参数会从“XML”文件传递。
 
-```
+```java
 package TestNG;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -244,21 +244,21 @@ public class TestNGClass
 
 步骤2：在浏览器中的参数将使用XML来传递。我们需要在项目文件夹创建相同的XML。
 
-![selenium_ide_134](http://www.yiibai.com/uploads/allimg/140928/21191I304-14.jpg)
+![selenium_ide_134](images/21191I304-14.jpg)
 
 步骤3：从“General”中选择“File”，然后点击“Next”。
 
-![selenium_ide_135](http://www.yiibai.com/uploads/allimg/140928/21191LY7-15.jpg)
+![selenium_ide_135](images/21191LY7-15.jpg)
 
 第4步：输入文件的名称，然后单击“Finish”。
 
-![selenium_ide_136](http://www.yiibai.com/uploads/allimg/140928/21191G230-16.jpg)
+![selenium_ide_136](images/21191G230-16.jpg)
 
 第5步：testng.xml文件是根据项目文件夹中创建如下图所示。
 
 步骤6：XML的内容如下所示。我们创建3个测试，把它放在套件中parallel="tests"，让所有的测试并行执行。
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests">
@@ -289,22 +289,22 @@ public class TestNGClass
 
 第1步：选择创建的XML并执行右键单击并选择 'Run As' >> 'TestNG Suite'
 
-![selenium_ide_139](http://www.yiibai.com/uploads/allimg/140928/21191K5M-18.jpg)
+![selenium_ide_139](images/21191K5M-18.jpg)
 
 第2步：现在打开的节点，在这里我们推出的所有浏览器节点。我们将能够同时看到所有三种浏览器中执行。
 
-![selenium_ide_140](http://www.yiibai.com/uploads/allimg/140928/21191L049-19.jpg)
+![selenium_ide_140](images/21191L049-19.jpg)
 
 ### 结果分析
 
 步骤1：在完成执行时，我们将能够分析的结果及任何其他执行。结果汇总打印在控制台。以下是相同的快照。
 
-![selenium_ide_142](http://www.yiibai.com/uploads/allimg/140928/21191JV2-20.jpg)
+![selenium_ide_142](images/21191JV2-20.jpg)
 
 第2步：导航到选项卡和TestNG将显示结果摘要如下图所示“Results of Running Suite”。
 
-![selenium_ide_141](http://www.yiibai.com/uploads/allimg/140928/21191J0U-21.jpg)
+![selenium_ide_141](images/21191J0U-21.jpg)
 
 步骤3：当生成的HTML中，我们将能够看到HTML格式的测试结果。
 
-![selenium_ide_143](http://www.yiibai.com/uploads/allimg/140928/21191K311-22.jpg)
+![selenium_ide_143](images/21191K311-22.jpg)

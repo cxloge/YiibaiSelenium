@@ -24,7 +24,7 @@
 
 1，根据ID：对象访问使用ID的帮助。在这种情况下，它是文本框的ID。该值使用SendKeys方法与ID(cdensity)的帮助下进入文本。
 
-![Selenium IDE 84](http://www.yiibai.com/uploads/allimg/140927/1606391330-0.jpg)
+![Selenium IDE 84](images/1606391330-0.jpg)
 
 ```
 driver.findElement(By.id("cdensity")).sendKeys("10");
@@ -33,7 +33,7 @@ driver.findElement(By.id("cdensity")).sendKeys("10");
 
 2，按名称：访问对象时使用的名称的帮助。在这种情况下，它是文本框的名称。该值是使用SendKeys方法与ID(cdensity)的帮助下进入文本。
 
-![Selenium IDE 85](http://www.yiibai.com/uploads/allimg/140927/1606396151-1.jpg)
+![Selenium IDE 85](images/1606396151-1.jpg)
 
 ```
 driver.findElement(By.name("cdensity")).sendKeys("10");
@@ -42,7 +42,7 @@ driver.findElement(By.name("cdensity")).sendKeys("10");
 
 3，通过类名：对象与类的名称，帮助进行访问。在这种情况下，它是WebElement的类名。该值可以用gettext方法进行访问。
 
-![Selenium IDE 86](http://www.yiibai.com/uploads/allimg/140927/1606396457-2.jpg)
+![Selenium IDE 86](images/1606396457-2.jpg)
 
 ```
 List<WebElement> byclass = driver.findElements(By.className("smalltext smtb"));
@@ -60,7 +60,7 @@ int rowcount = row.size();
 
 5，通过链接文本：此方法可以帮助我们找到与之相配的可见文本的链接元素。
 
-![Selenium IDE 87](http://www.yiibai.com/uploads/allimg/140927/1606393607-3.jpg)
+![Selenium IDE 87](images/1606393607-3.jpg)
 
 ```
 driver.findElements(By.linkText("Volume")).click();
@@ -69,7 +69,7 @@ driver.findElements(By.linkText("Volume")).click();
 
 5，通过部分链接文本：此方法可以帮助我们找到了部分匹配可见文本的链接元素。
 
-![Selenium IDE 87](http://www.yiibai.com/uploads/allimg/140927/1606393607-3.jpg)
+![Selenium IDE 87](images/1606393607-3.jpg)
 
 ```
 driver.findElements(By.partialLinkText("Volume")).click();
@@ -85,7 +85,7 @@ WebElement loginButton = driver.findElement(By.cssSelector("input.login"));
 
 7，通过Xpath：XML表示XML路径语言，是一种查询语言，用于从XML文档中选择节点。 XPath语言是基于XML文档的树表示，并提供选择使用各种标准的节点来浏览周围的树。
 
-![Selenium IDE 88](http://www.yiibai.com/uploads/allimg/140927/160639C30-5.jpg)
+![Selenium IDE 88](images/160639C30-5.jpg)
 
 ```
 driver.findElement(By.xpath(".//*[@id='content']/table[1]/tbody/tr/td/table/tbody/tr[2]/td[1]/input")).sendkeys("100");

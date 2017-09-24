@@ -17,19 +17,19 @@
 
 **步骤 2 :** 从工具菜单中打开Selenium IDE，按下录制按钮-即在右上角。
 
-![Selenium IDE 7](http://www.yiibai.com/uploads/allimg/140831/1633424146-0.jpg)
+![Selenium IDE 7](images/1633424146-0.jpg)
 
 **步骤 3 : **导航到 "Math Calculator" >> "Percent Calculator >> 输入"10" 作为 number1 并且输入 50 作为 number2 然后点击 "calculate".
 
-![Selenium IDE 7](http://www.yiibai.com/uploads/allimg/140831/163342J94-1.jpg)
+![Selenium IDE 7](images/163342J94-1.jpg)
 
 **步骤 4 :  **然后，用户可以插入检查点通过右键单击Web元素，并选择 "Show all available commands" >> 选择"assert text css=b 5"
 
-![Selenium IDE 8](http://www.yiibai.com/uploads/allimg/140831/163342A38-2.jpg)
+![Selenium IDE 8](images/163342A38-2.jpg)
 
 **步骤 4 : **所记录的脚本生成并被显示在以下脚本如下所示。
 
-![Selenium IDE 9](http://www.yiibai.com/uploads/allimg/140831/1633424959-3.jpg)
+![Selenium IDE 9](images/1633424959-3.jpg)
 
 ### 保存记录的测试
 
@@ -37,7 +37,7 @@
 
 该测试也可以保存扩展名为 .HTM，.SHTML和.XHTML。
 
-![Selenium IDE 9](http://www.yiibai.com/uploads/allimg/140831/1633424959-3.jpg)
+![Selenium IDE 9](images/1633424959-3.jpg)
 
 ### 保存测试套件
 
@@ -45,13 +45,13 @@
 
 步骤1：创建一个测试套件可通过导航到 "File" >> "New Test Suite" 如下所示：
 
-![Selenium IDE 13](http://www.yiibai.com/uploads/allimg/140831/1633424059-5.jpg)
+![Selenium IDE 13](images/1633424059-5.jpg)
 
 **步骤2：**该测试可以通过选择选项来记录，一个接一个 从 "File" 菜单中的"New Test Case" .
 
 **步骤3：**个人测试使用单独的名称来保存 "Test Suite".
 
-![Selenium IDE 14](http://www.yiibai.com/uploads/allimg/140831/1633426191-6.jpg)
+![Selenium IDE 14](images/1633426191-6.jpg)
 
 ### 执行记录的测试
 
@@ -63,4 +63,4 @@
 
 **第3步：**在执行每个步骤之后，测试步骤的背景变成“绿色”，如果获得通过如果失败则为“红”，，如下图所示。
 
-![Selenium IDE 15](http://www.yiibai.com/uploads/allimg/140831/1633422105-7.jpg)
+![Selenium IDE 15](images/1633422105-7.jpg)

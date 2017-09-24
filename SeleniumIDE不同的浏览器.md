@@ -6,10 +6,10 @@ Selenium IDE脚本只能对火狐的工具Firefox插件运行测试。使用Sele
 
 **第2步：**定位到“File”菜单，并选择“Export Test Suite As”，而选择将被列出。
 
-![Selenium IDE 28](http://www.yiibai.com/uploads/allimg/140925/2019423J5-0.jpg)
+![Selenium IDE 28](images/2019423J5-0.jpg)
 
 **步骤3：**现在让我们导出脚本“WebDriver”，并将其保存为同样的名称。
 
 **第4步：**如下图所示，显示保存webdriver文件。
 
-![Selenium IDE 29](http://www.yiibai.com/uploads/allimg/140925/2019425147-1.jpg)
+![Selenium IDE 29](images/2019425147-1.jpg)

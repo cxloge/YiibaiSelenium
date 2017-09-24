@@ -14,7 +14,7 @@ webdriver自动化俗称Selenium 2.0测试Web应用程序工具。 webdriver使�
 
 webdriver最好用一个简单的架构图，说明，如下图所示。
 
-![Selenium IDE 92](http://www.yiibai.com/uploads/allimg/140927/1552021019-0.jpg)
+![Selenium IDE 92](images/1552021019-0.jpg)
 
 ## Selenium RC VS webdriver
 
@@ -34,43 +34,43 @@ webdriver最好用一个简单的架构图，说明，如下图所示。
 
 第1步：从提取Eclipse文件夹中启动“Eclipse”。
 
-![Selenium IDE 75](http://www.yiibai.com/uploads/allimg/140927/155202FI-1.jpg)
+![Selenium IDE 75](images/155202FI-1.jpg)
 
 第2步：点击“Browse”按钮选择工作区。
 
-![Selenium IDE 76](http://www.yiibai.com/uploads/allimg/140927/155202N25-2.jpg)
+![Selenium IDE 76](images/155202N25-2.jpg)
 
 第3步：现在，创建“New Project”，从“File”菜单。
 
-![Selenium IDE 53](http://www.yiibai.com/uploads/allimg/140927/15520252Y-3.jpg)
+![Selenium IDE 53](images/15520252Y-3.jpg)
 
 第4步：输入项目名称，然后单击“Next”。
 
-![Selenium IDE 77](http://www.yiibai.com/uploads/allimg/140927/15520222B-4.jpg)
+![Selenium IDE 77](images/15520222B-4.jpg)
 
 第五步：进入Libraries选项卡，并选中所有的JAR包文件，我们已经下载（请参阅环境搭建章）。添加引用Selenium webdriver的库文件夹中的所有JAR，selenium-java-2.42.2.jar和selenium-java-2.42.2-srcs.jar
 
-![Selenium IDE 78](http://www.yiibai.com/uploads/allimg/140927/1552024Q3-5.jpg)
+![Selenium IDE 78](images/1552024Q3-5.jpg)
 
 第6步：如下图所示创建包。
 
-![Selenium IDE 79](http://www.yiibai.com/uploads/allimg/140927/15520230F-6.jpg)
+![Selenium IDE 79](images/15520230F-6.jpg)
 
 第7步：现在，让我们创建一个通过执行'Class'右键单击程序包，然后选择“New”>>“Class”
 
-![Selenium IDE 82](http://www.yiibai.com/uploads/allimg/140927/1552023F6-7.jpg)
+![Selenium IDE 82](images/1552023F6-7.jpg)
 
 第8步：现在命名类，并让它设置为main方法
 
-![Selenium IDE 80](http://www.yiibai.com/uploads/allimg/140927/15520253B-8.jpg)
+![Selenium IDE 80](images/15520253B-8.jpg)
 
 第9步：类概要如下所示。
 
-![Selenium IDE 81](http://www.yiibai.com/uploads/allimg/140927/1552025358-9.jpg)
+![Selenium IDE 81](images/1552025358-9.jpg)
 
 步骤10：现在是时候编写代码了。下面的脚本更容易理解，因为它清楚地解释了一步，在嵌入的注释步骤。请看看“Locators”一章，了解如何捕捉对象的属性。
 
-```
+```java
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -120,7 +120,7 @@ public class webdriverdemo
 
 第11步：以上脚本的输出将被打印在控制台。
 
-![Selenium IDE 83](http://www.yiibai.com/uploads/allimg/140927/1552023408-10.jpg)
+![Selenium IDE 83](images/1552023408-10.jpg)
 
 ## 最常用的命令
 

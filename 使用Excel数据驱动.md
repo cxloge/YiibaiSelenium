@@ -6,39 +6,39 @@
 
 **第1步：**导航到URL- http://poi.apache.org/download.htmll并下载ZIP格式。
 
-![selenium_ide_152](http://www.yiibai.com/uploads/allimg/140928/0F41RY5-0.jpg)
+![selenium_ide_152](images/0F41RY5-0.jpg)
 
 **第2步：**点击镜像链接下载JAR。
 
-![selenium_ide_153](http://www.yiibai.com/uploads/allimg/140928/0F41U219-1.jpg)
+![selenium_ide_153](images/0F41U219-1.jpg)
 
 **第3步：**解压缩到一个文件夹。
 
-![selenium_ide_154](http://www.yiibai.com/uploads/allimg/140928/0F41V5J-2.jpg)
+![selenium_ide_154](images/0F41V5J-2.jpg)
 
 **第4步：**如下所示的解压缩后的内容将被显示。
 
-![selenium_ide_155](http://www.yiibai.com/uploads/allimg/140928/0F41WF5-3.jpg)
+![selenium_ide_155](images/0F41WF5-3.jpg)
 
 **第5步：**现在创建一个新的项目，并在“External JARs”添加“POI-3.10.FINAL”文件夹中所有的jar包。
 
-![selenium_ide_147](http://www.yiibai.com/uploads/allimg/140928/0F41W442-4.jpg)
+![selenium_ide_147](images/0F41W442-4.jpg)
 
 **第6步：**现在，添加所有的“External JARs”在“OOXML-LIB”文件夹中。
 
-![selenium_ide_148](http://www.yiibai.com/uploads/allimg/140928/0F41VM4-5.jpg)
+![selenium_ide_148](images/0F41VM4-5.jpg)
 
 **第7步：**现在，添加所有的“External JARs”在“lib”文件夹中。
 
-![selenium_ide_149](http://www.yiibai.com/uploads/allimg/140928/0F41UY3-6.jpg)
+![selenium_ide_149](images/0F41UY3-6.jpg)
 
 **第8步：**如下图所示，显示已添加的JAR文件。
 
-![selenium_ide_150](http://www.yiibai.com/uploads/allimg/140928/0F41TW9-7.jpg)
+![selenium_ide_150](images/0F41TW9-7.jpg)
 
 **第9步：**如下图所示的Package Explorer显示。此外附加“webdriver”相关的JAR
 
-![selenium_ide_151](http://www.yiibai.com/uploads/allimg/140928/0F41R115-8.jpg)
+![selenium_ide_151](images/0F41R115-8.jpg)
 
 ## 参数
 
@@ -46,13 +46,13 @@
 
 **第1步：**我们将所有的参数需要使用Excel的％计算器的输入。所设计的excel如下所示。
 
-![selenium_ide_156](http://www.yiibai.com/uploads/allimg/140928/0F41V238-9.jpg)
+![selenium_ide_156](images/0F41V238-9.jpg)
 
 **第2步：**现在，我们将执行所有百分比计算器，所有指定的参数。
 
 **第3步：**让我们创建通用的方法来访问使用导入JARS Excel文件。这些方法可以帮助我们获得一个特定的单元格数据或设置一个特定的单元格的数据等。
 
-```
+```java
 import java.io.*;
 import org.apache.poi.xssf.usermodel.*;
     
@@ -129,7 +129,7 @@ public class excelutils
 
 **第4步：**现在，添加它将访问，我们已经开发了Excel的方法，主要的方法。
 
-```
+```java
 import java.io.*;
 import org.apache.poi.xssf.usermodel.*;
     
@@ -212,4 +212,4 @@ public class excelutils
 
 在执行脚本，输出显示在控制台中，如下图所示。
 
-![Selenium IDE 157](http://www.yiibai.com/uploads/allimg/140928/0F41T092-10.jpg)
+![Selenium IDE 157](images/0F41T092-10.jpg)

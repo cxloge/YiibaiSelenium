@@ -16,7 +16,7 @@ Selenium RC的工作方式是这样，客户端库使用Selenium RC服务器经�
 
 在浏览器中执行使用JavaScript解释器的Selenium 命令。
 
-![Selenium IDE 52](http://www.yiibai.com/uploads/allimg/140926/1-14092606344Xc.jpg)
+![Selenium IDE 52](images/1-14092606344Xc.jpg)
 
 Selenium RC分为两部分。
 
@@ -31,43 +31,43 @@ Selenium RC分为两部分。
 
 **第2步：**启动Selenium RC，打开Eclipse，并创建“New Project”，如下图所示之后。
 
-![Selenium IDE 53](http://www.yiibai.com/uploads/allimg/140926/1-14092606351D60.jpg)
+![Selenium IDE 53](images/1-14092606351D60.jpg)
 
 **第3步：**输入项目名称，然后单击“Next”按钮。
 
-![Selenium IDE 54](http://www.yiibai.com/uploads/allimg/140926/1-140926063621X1.jpg)
+![Selenium IDE 54](images/1-140926063621X1.jpg)
 
 **第4步：**验证源，项目，库和输出文件夹，然后单击“Finish”。
 
-![Selenium IDE 55](http://www.yiibai.com/uploads/allimg/140926/1-140926063F9B3.jpg)
+![Selenium IDE 55](images/1-140926063F9B3.jpg)
 
 **第4步：**右键单击“project”容器，然后选择“Configure Build Path”。
 
-![Selenium IDE 56](http://www.yiibai.com/uploads/allimg/140926/1-140926063P31N.jpg)
+![Selenium IDE 56](images/1-140926063P31N.jpg)
 
 **第5步：**属性'selrcdemo“打开。导航到“Libaries”选项卡，并选择“Add External JARs”。选择我们下载了Selenium RC的jar文件，它会出现如下图所示。
 
-![Selenium IDE 57](http://www.yiibai.com/uploads/allimg/140926/1-1409260639253E.jpg)
+![Selenium IDE 57](images/1-1409260639253E.jpg)
 
 **第6步：**将引用的库如下图所示显示。
 
-![Selenium IDE 58](http://www.yiibai.com/uploads/allimg/140926/1-140926064005T0.jpg)
+![Selenium IDE 58](images/1-140926064005T0.jpg)
 
 **步骤7：**通过执行右键单击“src”文件夹中创建一个新的类文件，并选择“New”>>“class”。
 
-![Selenium IDE 59](http://www.yiibai.com/uploads/allimg/140926/1-14092606405A36.jpg)
+![Selenium IDE 59](images/1-14092606405A36.jpg)
 
 **第8步：**输入类文件的名称，并启用“public static void main”，如下图所示。
 
-![Selenium IDE 60](http://www.yiibai.com/uploads/allimg/140926/1-14092606415O40.jpg)
+![Selenium IDE 60](images/1-14092606415O40.jpg)
 
 **步骤9：**在文件夹结构中创建的创建的类，如下所示。
 
-![Selenium IDE 70](http://www.yiibai.com/uploads/allimg/140926/1-140926064236331.jpg)
+![Selenium IDE 70](images/1-140926064236331.jpg)
 
 **第10步：**现在是时候进行编码。下面的代码有注释嵌入使读者了解。
 
-```
+```java
 package selrcdemo;
 import com.thoughtworks.selenium.DefaultSelenium;
 import com.thoughtworks.selenium.Selenium;
@@ -126,12 +126,12 @@ public class rcdemo
 
 **第12步：**脚本将开始执行和用户将能够看到在“Command History”选项卡上的命令历史记录。
 
-![Selenium IDE 71](http://www.yiibai.com/uploads/allimg/140926/1-140926064435117.jpg)
+![Selenium IDE 71](images/1-140926064435117.jpg)
 
 **步骤13：**该应用程序的最终状态显示为如下。百分比的计算方法和它在屏幕上显示的结果如下所示。
 
-![Selenium IDE 73](http://www.yiibai.com/uploads/allimg/140926/1-14092606452BL.jpg)
+![Selenium IDE 73](images/1-14092606452BL.jpg)
 
 **步骤14：**在测试的输出被打印的Eclipse控制台上所示，因为我们已打印输出到控制台下面。实时输出写入到HTML文件或简单的文本文件。
 
-![Selenium IDE 74](http://www.yiibai.com/uploads/allimg/140926/1-1409260646062B.jpg)
+![Selenium IDE 74](images/1-1409260646062B.jpg)

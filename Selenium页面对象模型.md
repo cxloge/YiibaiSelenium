@@ -16,7 +16,7 @@
 
 存在与之关联的各种计算器，并在特定的页面的那些对象中的每一个在一个单独的类文件为静态方法创建，他们都在'测试'class文件中的静态方法将被访问的对象进行访问。
 
-![Selenium IDE 145](http://www.yiibai.com/uploads/allimg/140928/0F1352603-0.jpg)
+![Selenium IDE 145](images/0F1352603-0.jpg)
 
 ## 示例
 
@@ -24,7 +24,7 @@
 
 步骤1：创建一个包内一个简单的类(page_objects_perc_calc.java)文件，并创建这些对象标识符中的每一个方法，如下图所示。
 
-```
+```java
 package PageObject;
 
 import org.openqa.selenium.*;
@@ -79,7 +79,7 @@ public class page_objects_perc_calc
 
 第2步：创建一个类主导入包，并为这些对象标识符中的每一个方法，如下图所示。
 
-```
+```java
 package PageObject;
 
 import java.util.concurrent.TimeUnit;
@@ -131,4 +131,4 @@ public class percent_calculator
 
 该测试被执行并且将结果打印在控制台。以下是相同的快照。
 
-![Selenium IDE 146](http://www.yiibai.com/uploads/allimg/140928/0F1352242-1.jpg)
+![Selenium IDE 146](images/0F1352242-1.jpg)
